@@ -78,6 +78,17 @@ export const MODEL_CONFIG: Record<string, ModelInfo> = {
     supported_max_output_tokens: 131072,
     default_top_p: 0.95,
   },
+  "grok-4.1-fast": {
+    grok_model: ["grok-4-1-thinking-1129", "MODEL_MODE_FAST"],
+    rate_limit_model: "grok-4-1-thinking-1129",
+    display_name: "Grok 4.1 Fast",
+    description: "Grok 4.1 model",
+    raw_model_path: "xai/grok-4-1-thinking-1129",
+    default_temperature: 1.0,
+    default_max_output_tokens: 32768,
+    supported_max_output_tokens: 131072,
+    default_top_p: 0.95,
+  },
   "grok-4.1-thinking": {
     grok_model: ["grok-4-1-thinking-1129", "MODEL_MODE_AUTO"],
     rate_limit_model: "grok-4-1-thinking-1129",
