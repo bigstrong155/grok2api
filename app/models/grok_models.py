@@ -136,6 +136,7 @@ class TokenType(Enum):
 class Models(Enum):
     """支持的模型"""
     GROK_3_FAST = "grok-3-fast"
+    GROK_4_1_FAST = "grok-4.1-fast"
     GROK_4_1_THINKING = "grok-4.1-thinking"
     GROK_4_FAST = "grok-4-fast"
     GROK_4_FAST_EXPERT = "grok-4-fast-expert"
